@@ -1,0 +1,25 @@
+{
+  "name": "www",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://RedzSon.github.io/www",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.0",
+    "typescript": "^4.9.5",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "gh-pages": "^5.0.0"
+  }
+}
